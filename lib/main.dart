@@ -9,6 +9,7 @@ import 'e.dart';
 void main() {
   runApp(MaterialApp(
     title: "Curved navigation bar",
+    debugShowCheckedModeBanner: false,
     home: MyApp(),
   ));
 }
@@ -27,9 +28,9 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: CurvedNavigationBar(index: 0,
-          color: Colors.lightBlue,
+          color: Colors.white,
           buttonBackgroundColor: Colors.white30,
-          backgroundColor: Colors.brown,
+          backgroundColor: Colors.green,
           animationCurve: Curves.easeInOut,
           animationDuration: Duration(milliseconds: 100),
           onTap: (index){

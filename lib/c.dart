@@ -7,7 +7,7 @@ class C extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.green,
       body: Center(
         child: Text("C",style: TextStyle(fontSize: 30),),
       ),
